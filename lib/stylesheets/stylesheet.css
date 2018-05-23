@@ -1,0 +1,62 @@
+.yellow-background {
+  background-color: white;
+  width: 500px;
+}
+
+.font-white {
+  color: white;
+}
+
+h4,
+h2 {
+  color: white;
+}
+
+.row-grey-height {
+  background-color: #202124;
+}
+
+.row-grey-alt {
+  background-color: white;
+}
+
+.row-height-md {
+  height: 100px;
+}
+
+.row-highlight {
+  background-color: grey;
+}
+
+.height-250 {
+  height: 250px;
+}
+
+.image-size {
+  width: 250px;
+}
+
+.padding-top-150 {
+  padding-top: 150px;
+}
+
+.background-image {
+  background: url(static/images/galaxy.jpg)no-repeat center center fixed;
+}
+
+.nav {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+
+  /* the rest of your styling */
+}
+
+.fade {
+  opacity: 1;
+  transition: opacity 2s;
+}
+
+.fade-hidden {
+  opacity: 0;
+}
