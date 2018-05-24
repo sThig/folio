@@ -1,9 +1,14 @@
-.yellow-background {
+.card {
   background-color: white;
   width: 500px;
+  border-radius: 3px;
 }
 
-.font-white {
+.div-fill {
+  height: 100vh;
+}
+
+.primary-color {
   color: white;
 }
 
@@ -32,16 +37,20 @@ h2 {
   height: 250px;
 }
 
-.image-size {
-  width: 250px;
+.image-size-sm {
+  width: 450px;
+}
+
+.image-size-lg {
+  width: 550px;
 }
 
 .padding-top-150 {
-  padding-top: 150px;
+  padding-top: 250px;
 }
 
 .background-image {
-  background: url(static/images/galaxy.jpg)no-repeat center center fixed;
+  background: url(static/images/galaxy.jpg) no-repeat center center fixed;
 }
 
 .nav {
@@ -59,4 +68,9 @@ h2 {
 
 .fade-hidden {
   opacity: 0;
+}
+
+.text-italics {
+  font-family: serif;
+  font-style: italic;
 }
