@@ -15,6 +15,10 @@ a.anchor {
   visibility: hidden;
 }
 
+.pt-20 {
+  padding-top: 20px;
+}
+
 .card {
   background-color: white;
   width: 500px;
@@ -22,7 +26,7 @@ a.anchor {
 }
 
 .div-fill {
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .primary-color {
