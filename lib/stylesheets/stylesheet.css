@@ -102,3 +102,13 @@ a.anchor {
   display: table-cell;
   vertical-align: middle;
 }
+
+.offset-100 {
+  margin-top: 120px;
+  padding-top: 70px;
+}
+
+.offset-200 {
+  margin-top: 220px;
+  padding-top: 140px;
+}
