@@ -8,6 +8,10 @@ h2 {
   color: white;
 }
 
+.color-yellow {
+  color: yellow;
+}
+
 a.anchor {
   display: block;
   position: relative;
