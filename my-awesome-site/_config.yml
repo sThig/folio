@@ -44,5 +44,12 @@ plugins:
 
 # Assets
 
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+
 sass:
   style: compact # possible values: nested expanded compact compressed

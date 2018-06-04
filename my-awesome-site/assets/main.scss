@@ -3,9 +3,12 @@
 # only Main files contain this front matter, not partials.
 ---
 
-@import "typography";
+@import "type";
+@import "base";
+@import "code";
+@import "layout";
 
-.content {
-  width: 45rem;
-  margin: 0 auto;
-}
+// .content {
+//   width: 45rem;
+//   margin: 0 auto;
+// }
