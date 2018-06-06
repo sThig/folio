@@ -3,8 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
+![image-title-here](/assets/img/me.jpg){:class="img-responsive"}
 
-I love David K! This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Scott and some stuff [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
