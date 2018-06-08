@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-internal
 title: User Interface
 permalink: /pages/ui
 ---

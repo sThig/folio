@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-internal
 title: Front End Development
 permalink: /pages/code
 ---
