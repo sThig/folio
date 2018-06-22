@@ -8,12 +8,19 @@
           box-sizing: border-box;
 }
 
+/* RGB */
+$color1: rgba(246, 201, 103, 1);
+$color2: rgba(235, 97, 90, 1);
+$color3: rgba(210, 233, 125, 1);
+$color4: rgba(98, 206, 199, 1);
+$color5: rgba(62, 62, 62, 1);
+
 html,
 body {
   margin: 0;
   margin-top: 70px;
   // padding: 15px;
-  background: #202124;
+ background: $color5;
 }
 
 html {
@@ -70,4 +77,8 @@ th {
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
+}
+
+.fixed-height {
+  height: 500px;
 }

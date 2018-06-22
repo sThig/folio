@@ -18,3 +18,30 @@
   font-family: serif;
   font-style: italic;
 }
+
+/* RGB */
+$color1: rgba(246, 201, 103, 1);
+$color2: rgba(235, 97, 90, 1);
+$color3: rgba(210, 233, 125, 1);
+$color4: rgba(98, 206, 199, 1);
+$color5: rgba(62, 62, 62, 1);
+
+.section-hello {
+  background: $color5;
+}
+
+.section-illo {
+  background: $color2;
+}
+
+.section-uiux {
+  background: $color3;
+}
+
+.section-code {
+  background: $color4;
+}
+
+.section-about {
+  background: $color1;
+}
