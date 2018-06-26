@@ -5,15 +5,15 @@ window.onload = function refreshWord() {
     document.getElementById('textswap').innerHTML = words[randomGenerator];
   }, 2000);
 
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      e.preventDefault();
-
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth'
-      });
-    });
-  });
+  // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  //   anchor.addEventListener('click', function(e) {
+  //     e.preventDefault();
+  //
+  //     document.querySelector(this.getAttribute('href')).scrollIntoView({
+  //       behavior: 'smooth'
+  //     });
+  //   });
+  // });
 
   $('.navbar-nav>li>a').on('click', function() {
     console.log('clicked');
