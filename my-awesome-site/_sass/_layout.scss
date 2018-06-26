@@ -70,6 +70,15 @@ $color30darken: darken($color1, 30%);
 }
 
 .page-content {
-  margin-top: 100px;
+  // margin-top: 50px;
   background-color: $color20darken;
+}
+
+.anchor {
+  a.anchor {
+      display: block;
+      position: relative;
+      top: -250px;
+      visibility: hidden;
+  }
 }
