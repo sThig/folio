@@ -74,6 +74,17 @@ $color30darken: darken($color1, 30%);
   background-color: $color20darken;
 }
 
+.fill {
+    background-image:   /* top, transparent black, faked with gradient */
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ), url("/assets/img/vulcan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}​
+
 .anchor {
   a.anchor {
       display: block;
