@@ -10,6 +10,15 @@
     <div class="p-2">
       {% include card.html content="My animation stuff." title="Animation" button="press me hard" image="kedi.gif" link="pages/animation.html" %}
     </div>
+    <div class="mt-5">
+      <ul class="mt-5">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+    </div>
 </div>
 
 {%- include footer.html -%}
