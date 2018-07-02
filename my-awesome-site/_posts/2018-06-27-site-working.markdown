@@ -3,6 +3,8 @@ layout: post
 title:  "Site Working"
 date:   2018-06-27 13:27:57 -0500
 categories: ux
+image: iterations.png
+excerpt: This is a test excerpt for UX
 ---
 
 Below

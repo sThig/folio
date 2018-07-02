@@ -1,28 +1,21 @@
-<!-- {% for post in site.posts %}
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="/assets/img/{{ include.image }}" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="p-override-grey card-title">{{ post.title }}</h5>
-    <p class="p-override-grey card-text">{{ include.content }}</p>
-    <a href="{{ post.url }}" class="btn btn-primary">{{ include.button }}</a>
-  </div>
-</div> -->
-
-
-<div class="mt-5">
-  <ul class="mt-5">
+<!-- <div class="mt-5">
+  <ul class="mt-5"> -->
+  <div class="d-flex flex-wrap justify-content-center">
 {% for post in site.posts %}
-<li>
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="/assets/img/{{ include.image }}" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="p-override-grey card-title">{{ post.title }}</h5>
-      <p class="p-override-grey card-text">{{ include.content }}</p>
-      <a href="{{ post.url }}" class="btn btn-primary">{{ include.button }}</a>
+<div class="p-2">
+  <div class="card no-gutters" style="width: 18rem;">
+    <a href="{{ post.url }}" ><img class="card-img-top mb-0" src="/assets/img/{{ post.image }}" alt="Card image cap"></a>
+    <div class="card-body pt-0">
+      <a href="{{ post.url }}" ><h5 class="p-override-grey card-title">{{ post.title }}</h5><a/>
+
+      </a>
+      <!-- <p class="p-override-grey card-text">{{ post.content | truncatewords: 10 }}</p> -->
+      <p class="p-override-grey card-text">{{ post.excerpt }}</p>
+      <a href="{{ post.url }}" class="btn btn-primary">Check it out</a>
     </div>
   </div>
-</li>
+</div>
 {% endfor %}
-</ul>
 </div>
-</div>
+<!-- </ul>
+</div> -->

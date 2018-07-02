@@ -3,6 +3,8 @@ layout: post
 title:  "Learning Jekyll"
 date:   2018-06-07 13:27:57 -0500
 categories: jekyll update javascript
+image: nuyu.jpg
+excerpt: This is a test excerpt for javascript
 ---
 
 I've been learning javascript and jekyllrb, learning partials have been great and I've enjoyed it.  Nice to see this site taking shape.
