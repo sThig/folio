@@ -2,10 +2,13 @@
 layout: page-internal
 title: About
 permalink: pages/about
+image: 5.JPG
 ---
-![image-title-here](/assets/img/me.jpg){:class="img-responsive"}
+<!-- ![image-title-here](/assets/img/me.jpg){:class="img-responsive"} -->
 
-My name is Scott and some stuff [jekyllrb.com](https://jekyllrb.com/)
+My name is Scott and I'm a creative and I have my hands in many pots.  I've ridden my mountain bike from Canada to Mexico in the hardest race in the world, the Tour Divide (note, not that wimpy race, the Tour De France).  
+
+In addition to riding across the country on a bike, I've given a TedX Talk, published a book, shown artwork in various galleries, am an Eagle Scout, given lectures at various universities, lived in other countries and I like photography.
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /

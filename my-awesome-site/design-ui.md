@@ -1,18 +1,11 @@
 ---
 layout: page-internal
 title: User Interface
-permalink: /pages/ui
+permalink: /pages/design-ui
+image: 3.JPG
 ---
-![image-title-here](/assets/img/testitout.png){:class="img-responsive"}
+In 1994 I spent around 3 hours loading little floppy discs up in my very tiny macintosh to finally experience some software called "Photoshop".  After inserting the last disc, my computer crashed and I spent another half day trying to get it installed.  
 
-Cat ipsum dolor sit amet, refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am. Cough furball into food bowl then scratch owner for a new one chase laser eat the rubberband and love and coo around boyfriend who purrs and makes the perfect moonlight eyes so i can purr and swat the glittery gleaming yarn to him (the yarn is from a $125 sweater).  [jekyllrb.com](https://jekyllrb.com/)
+For the past 20 years I've been immersed in Adobe's Photoshop and Illustrator.  As technology progressed, so have I using apps like Sketch, After Effects, Premier, Final Cut Pro, Keynote, Flash (yes, Flash... it just won't die) and Balsamiq for prototyping.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll
+I love market research and it's something that gives me a lot of energy to get behind a project.  When behind a project I love to communicate that to the stakeholders with convincing excitement.  I can see color patterns in my head and if I've had enough coffee, I can hear all the colors too!  I keep up on the latest trends in web design (both with visual and front end coding trends) and in the end, I'm very concerned with the user's experience.

@@ -2,10 +2,16 @@
 layout: page-internal
 title: Animation
 permalink: /pages/animation
+image: 6.JPG
 ---
-![image-title-here](/assets/img/kedi.gif){:class="img-responsive"}
 
-Cat ipsum dolor sit amet, refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am. Cough furball into food bowl then scratch owner for a new one chase laser eat the rubberband and love and coo around boyfriend who purrs and makes the perfect moonlight eyes so i can purr and swat the glittery gleaming yarn to him (the yarn is from a $125 sweater).  [jekyllrb.com](https://jekyllrb.com/)
+When I was a kid I saw Disney's Jungle Book and remember thinking "This is what I want to be in life, an Animator."  After college I spent months creating several portfolios that I sent out to every animation house in the world (at the time, around 30) and was rejected by everyone.  I was crushed but it never crushed my spirit.  
+
+When I startd my animation career I got a phone call one day from Dreamworks saying they needed an extra animator for a project called "Shrek" and I got to be part of the team.  My childhood dream was realized.
+
+I use both After Effects and hand drawn frames to create my illustrations.  It's an extremely timely procress but a fun one. 
+
+ [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /

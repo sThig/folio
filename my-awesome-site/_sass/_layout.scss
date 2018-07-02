@@ -85,14 +85,6 @@ $color30darken: darken($color1, 30%);
     background-position: 50% 50%;
 }​
 
-.-filter {
-  background:
-    linear-gradient(purple 0%, red 90%),
-    linear-gradient(to right, purple 0%, yellow 90%),
-    url('image.jpg') 30px,
-    url('image.jpg') 20px;
-  background-blend-mode: screen, difference, lighten;
-}
 
 .img-size-small {
   width: 75px;

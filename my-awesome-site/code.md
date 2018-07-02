@@ -2,16 +2,13 @@
 layout: page-internal
 title: Front End Development
 permalink: /pages/code
+image: 1.JPG
 ---
 
-Cat ipsum dolor sit amet, refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am. Cough furball into food bowl then scratch owner for a new one chase laser eat the rubberband and love and coo around boyfriend who purrs and makes the perfect moonlight eyes so i can purr and swat the glittery gleaming yarn to him (the yarn is from a $125 sweater).  [jekyllrb.com](https://jekyllrb.com/)
+One of the biggest challenge of a designer is code, this is why I've spent years immersing myself with front end code (HTML, CSS, JS).  I love nothing more than to take a design comp and then convert it over to an actual website.  I enjoy building with Bootstrap's framework and coding from the ground up.  Being immersed in a team that uses Agile, GitHub and Atom to deploy code, I'm no stranger to this either.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+When I'm done making pixel perfect ui/ux wireframes and comps, I code those visual elements to go on the web.  I also review old code, technical debt and convert it into current code to keep a website fresh.  
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+My favorite flavors of code are HAML, SASS (scss), ES6 and ReactJS.
 
 [jekyll-organization]: https://github.com/jekyll

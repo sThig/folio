@@ -2,10 +2,19 @@
 layout: page-internal
 title: Illustration
 permalink: /pages/illustration
+image: 4.JPG
 ---
-![image-title-here](/assets/img/nuyu.jpg){:class="img-responsive"}
+In the 90s I got my first illustration project which was to illustrate a flyer for a frat party.  It was my first illustration project that got me hooked which led to bigger clients like BBVA/Compass bank, The Wall Street Journal, Dreamworks, Coca Cola, Snapple and Toyota to name a few.
 
-Cat ipsum dolor sit amet, refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am. Cough furball into food bowl then scratch owner for a new one chase laser eat the rubberband and love and coo around boyfriend who purrs and makes the perfect moonlight eyes so i can purr and swat the glittery gleaming yarn to him (the yarn is from a $125 sweater).  [jekyllrb.com](https://jekyllrb.com/)
+For over 20 years I illustrated for companies across the world and down to the hometown repair shop.  The tools I used were always Adobe Illustrator and Photoshop.  In fact I know Illustrator so well that I rarely even use a sketch to work off of now-a-days.  
+
+I won an award
+
+[jekyll-organization]: https://github.com/jekyll
+
+Recently I've abandoned Illustrator for Affinity's Designer and Photo (I did this because I think Adobe's subscription based model is a rip-off and honestly Affinity is better).
+
+[jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
