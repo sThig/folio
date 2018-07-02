@@ -85,6 +85,15 @@ $color30darken: darken($color1, 30%);
     background-position: 50% 50%;
 }​
 
+.-filter {
+  background:
+    linear-gradient(purple 0%, red 90%),
+    linear-gradient(to right, purple 0%, yellow 90%),
+    url('image.jpg') 30px,
+    url('image.jpg') 20px;
+  background-blend-mode: screen, difference, lighten;
+}
+
 .img-size-small {
   width: 75px;
 }
@@ -99,52 +108,12 @@ $color30darken: darken($color1, 30%);
   }
 }
 
+.navbar, .bg-dark, .bg-color-change {
+  background-color: $color20darken;
+}
 
-// .navbar {
-//   margin-bottom: 0;
-//   background-color: #f4511e;
-//   z-index: 9999;
-//   border: 0;
-//   font-family: Montserrat, sans-serif;
-//   font-size: 12px !important;
-//   letter-spacing: 4px;
-//   border-radius: 0;
-// }
-//
-// .navbar li a,
-// .navbar .navbar-brand {
-//   color: #FFFFFF !important;
-// }
-//
-// .navbar-nav li a:hover,
-// .navbar-nav li.active a {
-//   color: #f4511e !important;
-//   background-color: #FFFFFF !important;
-// }
-//
-// .navbar-default .navbar-toggle {
-//   border-color: transparent;
-//   color: #ffffff;
-// }
-//
-// #hamburger .icon-bar {
-//   background: white;
-// }
-//
-// #hamburger:hover,
-// #hamburger.is-active {
-//   background: white !important;
-// }
-//
-// #hamburger:hover .icon-bar,
-// #hamburger.is-active .icon-bar {
-//   background: #F4511e !important;
-// }
-//
-// #hamburger:focus {
-//   background: #F4511e;
-// }
-//
-// #hamburger:focus .icon-bar {
-//   background: #FFF;
-// }
+.banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
