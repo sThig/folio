@@ -1,7 +1,7 @@
 <!-- <div class="mt-5">
   <ul class="mt-5"> -->
   <div class="d-flex flex-wrap justify-content-center">
-{% for post in site.posts %}
+{% for post in site.posts limit:3 %}
 <div class="p-2">
   <div class="card no-gutters" style="width: 18rem;">
     <a href="{{ post.url }}" ><img class="card-img-top mb-0" src="/assets/img/{{ post.image }}" alt="Card image cap"></a>

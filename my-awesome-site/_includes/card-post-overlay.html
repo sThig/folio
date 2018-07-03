@@ -1,0 +1,22 @@
+
+  <div class="card-group d-flex flex-wrap">
+{% for post in site.posts limit:3 %}
+<!-- <div class="pr-3">
+  <div class="card" style="width:13rem;">
+    <a href="{{ post.url }}" ><img class="card-img-top mb-0" src="/assets/img/{{ post.image }}" alt="Card image top"></a>
+    <div class="card-body">
+      <a href="{{ post.url }}" ><h5 class="card-title">{{ post.title }}</h5></a>
+      <p class="card-text">{{ post.excerpt }}</p>
+    </div>
+  </div>
+</div> -->
+<div class="card">
+  <img class="card-img-top mb-0" src="/assets/img/{{ post.image }}" alt="{{ post.title }}">
+  <div class="card-img-overlay">
+    <h3 class="card-title mt-0">{{ post.title }}</h3>
+    <h4 class="card-subtitle">Card subtitle</h4>
+    <p class="card-text">{{ post.excerpt }}</p>
+  </div>
+</div>
+{% endfor %}
+</div>
