@@ -1,5 +1,5 @@
 
-  <div class="card-group d-flex flex-wrap">
+  <div class="card-deck col-sm-12 cold-md-12">
 {% for post in site.posts limit:3 %}
 <!-- <div class="pr-3">
   <div class="card" style="width:13rem;">
@@ -10,11 +10,10 @@
     </div>
   </div>
 </div> -->
-<div class="card">
+<div class="card thumbnail">
   <img class="card-img-top mb-0" src="/assets/img/{{ post.image }}" alt="{{ post.title }}">
   <div class="card-img-overlay">
-    <h3 class="card-title mt-0">{{ post.title }}</h3>
-    <h4 class="card-subtitle">Card subtitle</h4>
+    <a href="{{ post.url }}" ><h3 class="card-title mt-0">{{ post.title }}</h3></a>
     <p class="card-text">{{ post.excerpt }}</p>
   </div>
 </div>
