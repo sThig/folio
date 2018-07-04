@@ -25,3 +25,8 @@ You can find the source code for Jekyll at GitHub:
 [jekyll](https://github.com/jekyll/jekyll)
 
 [jekyll-organization]: https://github.com/jekyll
+
+<div class="d-flex justify-content-center">
+
+  {% include card-post-illustration.html %}
+</div>

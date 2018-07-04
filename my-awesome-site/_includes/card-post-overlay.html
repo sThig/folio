@@ -1,20 +1,11 @@
 
   <div class="card-deck col-sm-12 cold-md-12">
 {% for post in site.posts limit:3 %}
-<!-- <div class="pr-3">
-  <div class="card" style="width:13rem;">
-    <a href="{{ post.url }}" ><img class="card-img-top mb-0" src="/assets/img/{{ post.image }}" alt="Card image top"></a>
-    <div class="card-body">
-      <a href="{{ post.url }}" ><h5 class="card-title">{{ post.title }}</h5></a>
-      <p class="card-text">{{ post.excerpt }}</p>
-    </div>
-  </div>
-</div> -->
-<div class="card thumbnail">
+<div class="card thumbnail wow fadeIn">
   <img class="card-img-top mb-0" src="/assets/img/{{ post.image }}" alt="{{ post.title }}">
   <div class="card-img-overlay">
     <a href="{{ post.url }}" ><h3 class="card-title mt-0">{{ post.title }}</h3></a>
-    <p class="card-text">{{ post.excerpt }}</p>
+    <a href="{{ post.url }}" ><p class="card-text">{{ post.excerpt }}</p></a>
   </div>
 </div>
 {% endfor %}
