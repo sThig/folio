@@ -3,6 +3,7 @@ layout: page-internal
 title: Illustration
 permalink: /pages/illustration
 image: 4.JPG
+examples: '{% include card-post-illustration.html %}'
 ---
 In the 90s I got my first illustration project which was to illustrate a flyer for a frat party.  It was my first illustration project that got me hooked which led to bigger clients like BBVA/Compass bank, The Wall Street Journal, Dreamworks, Coca Cola, Snapple and Toyota to name a few.
 
@@ -25,8 +26,3 @@ You can find the source code for Jekyll at GitHub:
 [jekyll](https://github.com/jekyll/jekyll)
 
 [jekyll-organization]: https://github.com/jekyll
-
-<div class="d-flex justify-content-center">
-
-  {% include card-post-illustration.html %}
-</div>

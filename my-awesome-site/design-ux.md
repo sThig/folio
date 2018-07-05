@@ -3,6 +3,7 @@ layout: page-internal
 title: User Experience
 permalink: /pages/design-ux
 image: 2.JPG
+examples: '{% include card-post-ux.html %}'
 ---
 Starting with ideas on cocktail napkins, to drying out markers on the whiteboard to full blown wireframes designed in  [Balsmiq](https://balsamiq.com/), I own the entire design process with the user in mind at all times.  
 
@@ -13,8 +14,3 @@ When I'm energetic about a project, I become an evangelist for it and can sell i
 For over two decades I've been in some form of creative role where the end user was in mind.  Within the past decade I made the transition to a tech environment where I taught web design at [UAB](https://uab.edu/) and at ProctorU where as a team, we implement the Agile way of creating products.
 
 I am well versed in design, illustration, front end development (HTML, CSS, JS) and I play well with others.
-
-<div class="d-flex justify-content-center">
-
-  {% include card-post-ux.html %}
-</div>

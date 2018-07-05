@@ -14,8 +14,3 @@ When I'm done making pixel perfect ui/ux wireframes and comps, I code those visu
 My favorite flavors of code are HAML, SASS (scss), ES6 and ReactJS.
 
 [jekyll-organization]: https://github.com/jekyll
-
-<div class="d-flex justify-content-center">
-
-  {% include card-post-code.html %}
-</div>
