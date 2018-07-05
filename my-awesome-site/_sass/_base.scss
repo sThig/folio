@@ -14,6 +14,8 @@ html,
 body {
   margin: 0;
  background-color: $color20darken;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
 }
 
 html {
@@ -33,13 +35,14 @@ body {
 
 // No `:visited` state is required by default (browsers will use `a`)
 a {
-  color: #268bd2;
+  color: $color2;
   text-decoration: none;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
-    text-decoration: underline;
+    color: $color30darken;
+    text-decoration: none;
   }
 
   strong {
@@ -82,9 +85,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .navbar{
-  a {color: $color2;}
   a:hover {
-    color: $color6;
     cursor: pointer;
     -webkit-transition: color .4s ease-out;
     -moz-transition: color .4s ease-out;

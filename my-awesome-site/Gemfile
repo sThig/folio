@@ -30,3 +30,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # This was added by Scott to convert _sass
 gem 'jekyll-sass-converter'
+
+#This was added by Scott to write posts dynamically
+gem 'jekyll-compose', group: [:jekyll_plugins]

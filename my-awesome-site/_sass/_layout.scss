@@ -10,18 +10,14 @@
   margin-right: auto;
 }
 
-// footer {
-//   margin-bottom: 5rem;
-// }
-
 .text-italics {
   font-family: serif;
   font-style: italic;
 }
 
 /* RGB */
-$color1: rgba(52, 60, 90, 1);
-$color2: rgba(212, 209, 203, 1);
+$color1: #0E97FF;
+$color2: #FFFFFF;
 $color3: rgba(129, 128, 222, 1);
 $color4: rgba(136, 133, 162, 1);
 $color5: rgba(94, 103, 157, 1);
@@ -58,7 +54,10 @@ $color30darken: darken($color1, 30%);
 }
 
 .section-footer {
-  background: $color30darken;
+  background: $color2;
+  p, a {color: $color1;}
+  a:hover, h5 {color: $color30darken;}
+
 }
 
 .section-body {
@@ -77,12 +76,12 @@ $color30darken: darken($color1, 30%);
 .fill {
     background-image:   /* top, transparent black, faked with gradient */
     linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ), url("/assets/img/vulcan.jpg");
+      rgba(1, 94, 167, 0.95),
+      rgba(1, 94, 167, 0.95)
+    ), url("/assets/img/cheaha-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 20% 10%;
 }​
 
 
@@ -98,10 +97,6 @@ $color30darken: darken($color1, 30%);
       top: -250px;
       visibility: hidden;
   }
-}
-
-.navbar, .bg-dark, .bg-color-change {
-  background-color: $color20darken;
 }
 
 .banner {
@@ -698,16 +693,12 @@ section h1 {
 
 
 
-.color-yellow {
-  color: $color6;
+.home-text-change {
+  color: $color1;
 }
 
 .p-override-grey {
   color: #202124
-}
-
-.footer-color {
-  background-color: #3D3B39;
 }
 
 .card-body h5{

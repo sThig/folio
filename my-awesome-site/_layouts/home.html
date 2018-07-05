@@ -14,7 +14,7 @@ layout: default
       </div>
       <div class="row">
         <div class="col">
-          <h4>And I'm a creative <span class="text-italics color-yellow" id="textswap"> person </span>.</h4>
+          <h4>And I'm a creative <span class="home-text-change" id="textswap"> person </span>.</h4>
         </div>
       </div>
     </div>
@@ -28,6 +28,8 @@ layout: default
 <div class="wow fadeIn row p-5 section-uiux" id="uiux">
   <div class="col-lg-6">
     {% include info_section.html
+      image-size="4"
+      paragraph-size="8"
        section="code"
        title="UX"
        subtitle="User Experience"
@@ -38,6 +40,8 @@ layout: default
   </div>
   <div class="col-lg-6">
     {% include info_section.html
+      image-size="4"
+      paragraph-size="8"
        section="code"
        title="UI"
        subtitle="User Interface"
@@ -50,12 +54,14 @@ layout: default
 <div class="wow fadeIn p-5 section-about" id="code">
   <div class="col-lg-12">
     {% include info_section.html
+      image-size="2"
+      paragraph-size="10"
       section="code"
       title="Front End Development"
       subtitle="I'm like Mark Haml on board the ES6 spaceship SASSing everyone"
-      blurb="Some stuff about user interfact"
-      image="code.png"
-      content="creative industry. I've illustrated for the Wall Street Journal, animated for Dreamworont End Developer/ UIUX Designer and raced across the country in the tougest mountain bike race in the world."
+      blurb="This will be a clever blurb about front end development"
+      image="code-illo.png"
+      content="This will be a paragraph introducing what skills I provide for front end development. It'll detail my knowledge of CSS, SCSS, SASS, HTML, Bootstrap, javascript, React.js, version control like GitHub, using Atom as an editor."
       linktopage="code.html" %}
   </div>
 </div>
@@ -64,22 +70,26 @@ layout: default
   <div class="wow fadeIn row p-5 section-illo" id="illustration">
     <div class="col-lg-6">
       {% include info_section.html
-         section="illustration"
-         title="Illustration"
-         subtitle="Illustration"
-         blurb="For over 20 years blah blah blah..."
-         image="nuyu.jpg" content="For over twenty years I've been a professional in the creative industry. I've illustrated for the Wall Street Journal, animated for Dreamworks, worked a successful startup as a Front End Developer/ UIUX Designer and raced across the country in the tougest mountain bike race in the world."
-         linktopage="illustration.html" %}
+        image-size="4"
+        paragraph-size="8"
+        section="illustration"
+        title="Illustration"
+        subtitle="Illustration"
+        blurb="For over 20 years blah blah blah..."
+        image="nuyu.jpg" content="For over twenty years I've been a professional in the creative industry. I've illustrated for the Wall Street Journal, animated for Dreamworks, worked a successful startup as a Front End Developer/ UIUX Designer and raced across the country in the tougest mountain bike race in the world."
+        linktopage="illustration.html" %}
     </div>
     <div class="col-lg-6">
       {% include info_section.html
-         section="animantion"
-         title="Animation"
-         subtitle="Animation"
-         blurb="Some stuff about user interfact"
-         image="kedi.gif"
-         content="creative industry. I've illustrated for the Wall Street Journal, animated for Dreamworont End Developer/ UIUX Designer and raced across the country in the tougest mountain bike race in the world."
-         linktopage="animation.html" %}
+        image-size="4"
+        paragraph-size="8"
+        section="animantion"
+        title="Animation"
+        subtitle="Animation"
+        blurb="I draw and I know things"
+        image="kedi.gif"
+        content="I've illustrated for the Wall Street Journal, animated for Dreamworont End Developer/ UIUX Designer and raced across the country in the tougest mountain bike race in the world."
+        linktopage="animation.html" %}
     </div>
   </div>
 
@@ -88,9 +98,11 @@ layout: default
     {% include info_section.html
        section="About
        Me" title="About Me"
+       image-size="3"
+       paragraph-size="9"
        subtitle="Jack of all trades, master of a few of them."
-       blurb="Some stuff about user interfact"
-       image="me.JPG" content="creative industry. I've illustrated for the Wall Street Journal, animated for Dreamworont End Developer/ UIUX Designer and raced across the country in the tougest mountain bike race in the world."
+       blurb="I'm really, really good at one or two things and wing the rest"
+       image="me.JPG" content="I've worked in the creative industry for like 20 billion years now. I've illustrated for the Wall Street Journal, animated for Dreamworont End Developer/ UIUX Designer and raced across the country in the tougest mountain bike race in the world."
        linktopage="about.html" %}
   </div>
 </div>
