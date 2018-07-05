@@ -3,7 +3,6 @@ layout: page-internal
 title: About
 permalink: pages/about
 image: 5.JPG
-cat: about
 ---
 My name is Scott and I'm a creative and I have my hands in many pots.  I've ridden my mountain bike from Canada to Mexico in the hardest race in the world, the Tour Divide (note, not that wimpy race, the Tour De France).  
 
@@ -19,6 +18,6 @@ You can find the source code for Jekyll at GitHub:
 
 [jekyll-organization]: https://github.com/jekyll
 
-<div class="d-flex justify-content-center">
-  {% include card-post-code.html %}
-</div>
+<!-- <div class="d-flex justify-content-center">
+  {% include card-post-about.html %}
+</div> -->
