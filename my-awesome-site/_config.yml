@@ -41,9 +41,8 @@ plugins:
 #   - vendor/ruby/
 
 # Assets
-
-sass:
-  sass_dir: ./_scss
+  sass:
+    sass_dir: _sass
 
 defaults:
   - scope:
