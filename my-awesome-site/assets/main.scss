@@ -2,10 +2,11 @@
 # this ensures Jekyll reads the file to be transformed into CSS later
 # only Main files contain this front matter, not partials.
 ---
+//note scott
 
+@import "layout";
 @import "type";
+@import "animate";
 @import "base";
 @import "code";
-@import "layout";
-@import "animate";
 @import "navbar";
