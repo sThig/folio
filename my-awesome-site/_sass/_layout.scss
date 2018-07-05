@@ -119,22 +119,7 @@ $color30darken: darken($color1, 30%);
 .thumbnail img {
     max-width: 100%;
     overflow: hidden;
-    filter: brightness(0.25);
-}
-
-.modal-body img {
-  filter: brightness(1);
-}
-
-.modal-body {
-  color: black;
-  h5 {
-    color: black;
-  }
-}
-
-.modal-title {
-  color: black;
+    filter: opacity(10%);
 }
 
 .thumbnail {
@@ -142,11 +127,11 @@ $color30darken: darken($color1, 30%);
 }
 
 .card-text, .card-title {
-  color: white;
+  color: $color30darken;
 }
 
 .card {
-  color: white;
+  color: $color30darken;
   overflow: hidden;
   max-width: 100%;
 }

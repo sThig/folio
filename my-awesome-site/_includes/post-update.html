@@ -1,0 +1,6 @@
+
+  {% for post in site.categories.update limit:1 %}
+    <a href="{{ post.url }}" ><h3 class="card-title mt-0">{{ post.title }}</h3></a>
+    <p class="card-text">{{ post.excerpt | truncatewords: 20 }}</p>
+    <a href="{{ post.url }}">Read more</a>
+{% endfor %}
