@@ -3,6 +3,7 @@ layout: page-internal
 title: About
 permalink: pages/about
 image: 5.JPG
+cat: about
 ---
 My name is Scott and I'm a creative and I have my hands in many pots.  I've ridden my mountain bike from Canada to Mexico in the hardest race in the world, the Tour Divide (note, not that wimpy race, the Tour De France).  
 
