@@ -42,6 +42,9 @@ plugins:
 
 # Assets
 
+sass:
+  sass_dir: ./_scss
+
 defaults:
   - scope:
       path: "assets/img"
