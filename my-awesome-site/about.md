@@ -20,5 +20,5 @@ You can find the source code for Jekyll at GitHub:
 [jekyll-organization]: https://github.com/jekyll
 
 <div class="d-flex justify-content-center">
-  {% include card-post-about.html %}
+  {% include card-post-code.html %}
 </div>
